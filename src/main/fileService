@@ -1,0 +1,16 @@
+package main;
+import java.io.File;
+import java.io.IOException;
+
+public class FileService {
+	private File file;
+	private Set<pokerHand> pokerHands;
+
+	public class FileService() throws IOException {
+		Path path = Paths.get("PokerHands.csv");
+		try {	
+			this.pokerHand = (HashSet<pokerHand>();
+		Set<String> pokerHands = new HashSet<String>();
+	}
+
+}
