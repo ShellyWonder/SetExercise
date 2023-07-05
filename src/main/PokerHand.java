@@ -1,21 +1,21 @@
 package main;
-public class Player{
-    private String name;
+public class PokerHand{
+    private String playerName;
     private String winningHand;
     
     
     
-    public Player(String name, String winningHand){
-        this.name = name;
+    public PokerHand(String playerName, String winningHand){
+        this.playerName = playerName;
         this.winningHand = winningHand;
     }   
     // Getters and setters  
-    public String getName(){
-        return name;
+    public String getplayerName(){
+        return playerName;
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setplayerName(String playerName){
+        this.playerName = playerName;
     }
 
     public String getWinningHand(){
